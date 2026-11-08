@@ -11,13 +11,13 @@ body {
   padding: 36px 32px;
   margin: 0 auto;
 }
-.search-form {
+.form {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 32px;
 }
-.search-form input {
+.form input {
   width: 272px;
   height: 40px;
   padding: 8px 16px;
@@ -25,10 +25,10 @@ body {
   border-radius: 4px;
   font: inherit;
 }
-.search-form input:hover {
+.form input:hover {
   border-color: #000;
 }
-.search-form input:focus {
+.form input:focus {
   border-color: #4e75ff;
   outline: none;
 }
@@ -115,7 +115,7 @@ button:hover {
   .gallery {
     grid-template-columns: 1fr;
   }
-  .search-form input {
+  .form input {
     min-width: 0;
     flex: 1;
   }
